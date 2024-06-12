@@ -1,3 +1,7 @@
 #!/bin/sh
 
-curl https://raw.githubusercontent.com/hexisXz/serh/main/README.md | rdrview -B lynx $(fzf)
+echo "enter the browser you want the link open in."
+
+read b
+
+curl https://raw.githubusercontent.com/hexisXz/SSET/main/links.txt | rdrview -B $b $(fzf)
