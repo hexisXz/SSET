@@ -1,7 +1,24 @@
 #!/bin/sh
 
-echo "enter the browser you want the link open in."
+echo "web links or youtube(w/y)"
 
-read b
+read a
 
-curl https://raw.githubusercontent.com/hexisXz/SSET/main/links.txt | rdrview -B $b $(fzf)
+if ["$a" == "w"]; then
+	echo "enter the browser you want the link open in."
+
+	read b
+
+	curl https://raw.githubusercontent.com/hexisXz/SSET/main/links.txt | rdrview -B $b $(fzf)
+fi
+
+
+if ["$a" == "y"]; then
+	echo "enter the browser you want the link open in."
+
+	read c
+
+	curl https://raw.githubusercontent.com/hexisXz/SSET/main/yt-links.txt | mpv $b $(fzf)
+fi
+
+

@@ -1,3 +1,13 @@
 https://thevaluable.dev/practical-guide-fzf-example/
 https://en.wikipedia.org/wiki/Linux
-
+https://www.linux-magazine.com/Online/News/Linux-Lite-7.0-Officially-Released/(tatagIDgID)/32
+https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/
+https://www.makeuseof.com/how-does-the-linux-kernel-work/
+https://www.makeuseof.com/check-system-details-and-hardware-information-on-linux/
+https://www.makeuseof.com/set-up-nfs-server-on-linux/
+https://www.makeuseof.com/memory-allocation-linux/
+https://www.makeuseof.com/how-to-configure-user-access-files-folders-in-linux/
+https://en.wikipedia.org/wiki/OpenBSD
+https://www.openbsdhandbook.com/
+https://en.wikipedia.org/wiki/Berkeley_Software_Distribution
+https://en.wikipedia.org/wiki/History_of_the_Berkeley_Software_Distribution
