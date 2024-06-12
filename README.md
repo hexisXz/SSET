@@ -1,2 +1,2 @@
-# serh
-simple text based plain HTML kind of search engine (but not really)
+https://thevaluable.dev/practical-guide-fzf-example/
+https://www.chess.com/forum/view/general/10-steps-for-getting-good-at-chess-fast
