@@ -4,7 +4,7 @@ echo "web links or youtube(w/y)"
 
 read a
 
-if ["$a" == "w"]; then
+if [ "$a" = "w" ]; then
 	echo "enter the browser you want the link open in."
 
 	read b
@@ -13,11 +13,7 @@ if ["$a" == "w"]; then
 fi
 
 
-if ["$a" == "y"]; then
-	echo "enter the browser you want the link open in."
-
-	read c
-
+if [ "$a" = "y" ]; then
 	curl https://raw.githubusercontent.com/hexisXz/SSET/main/yt-links.txt | mpv $b $(fzf)
 fi
 
