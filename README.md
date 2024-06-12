@@ -1,2 +1,7 @@
-https://thevaluable.dev/practical-guide-fzf-example/
-https://www.chess.com/forum/view/general/10-steps-for-getting-good-at-chess-fast
+Simple search engine thing (SSET)
+
+
+# install 
+#### working on
+
+you need rdrview to use this. 
