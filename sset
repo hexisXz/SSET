@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "web links or youtube(w/y)"
+echo "web links or youtube(w/y/t)"
 
 read a
 
@@ -18,3 +18,16 @@ if [ "$a" = "y" ]; then
 fi
 
 
+if [ "$a" = "t" ]; then 
+	# Extract the repository URL
+	REPO_URL="https://github.com/hexisXz/SSET"
+
+	# Fetch the repository page HTML
+	HTML_CONTENT=$(curl "$REPO_URL")
+
+	# Parse the HTML content to find directories
+	echo "$HTML_CONTENT" | grep -oP '(?<=href=")[^"]+/tree/[^"]+' | awk -F'/' '{print $NF}' | sort -u
+fi
+
+
+#curl https://github.com/hexisXz/SSET | html2text
